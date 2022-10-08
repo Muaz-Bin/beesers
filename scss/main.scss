@@ -1,0 +1,223 @@
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600;700;900&display=swap");
+
+$brand_color: #7311b7;
+$text_color: #212832;
+
+body {
+  font-family: "Poppins", sans-serif;
+  font-size: 16px;
+  color: $text_color;
+}
+a {
+  text-decoration: none;
+  display: inline-block;
+}
+* {
+  transition: all 0.3s ease-in-out;
+}
+
+// Theme Button
+.theme-btn {
+  padding: 17px 34px;
+  display: inline-block;
+  background: $brand_color;
+  color: #fff;
+  border-radius: 10px;
+  text-decoration: none;
+  font-size: 24px;
+  font-weight: 400;
+  line-height: 24px;
+  letter-spacing: 0.04em;
+  border: 1px solid transparent;
+  text-align: center;
+  &:hover {
+    background-color: transparent;
+    color: $brand_color;
+    border: 1px solid $brand_color;
+  }
+  i {
+    margin-right: 5px;
+    color: #fbc31c;
+  }
+}
+
+.banner-area {
+  margin-top: 170px;
+  .top-bar {
+    transform: translateY(-50%);
+    margin-bottom: -125px;
+  }
+  .inner-container {
+    padding-left: 100px;
+    padding-right: 100px;
+    background-image: url(../img/banner-bg.png);
+    background-size: auto 100%;
+    background-repeat: no-repeat;
+    border-top-left-radius: 35px;
+    border-top-right-radius: 35px;
+    padding-bottom: 50px;
+  }
+  .container-fluid {
+    --bs-gutter-x: 100px;
+  }
+  .site-logo {
+    max-width: 250px;
+    border: 2px solid #fff;
+    border-radius: 50%;
+  }
+  .search-bar {
+    position: relative;
+    max-width: 550px;
+    margin-left: auto;
+    margin-top: -55px;
+    input {
+      box-shadow: 0 0 40px rgb(11 11 11 / 21%);
+      height: 55px;
+      border-radius: 12px;
+      padding-left: 60px;
+      border: none;
+      font-size: 24px;
+      &::placeholder {
+        font-size: 24px;
+        color: #0b0b0b;
+      }
+    }
+    i {
+      position: absolute;
+      left: 20px;
+      top: 50%;
+      transform: translateY(-50%) rotate(90deg);
+      font-size: 24px;
+      color: $text_color;
+    }
+  }
+  h1 {
+    font-size: 52px;
+    color: $text_color;
+    font-weight: 400;
+    line-height: 60px;
+    margin-top: 100px;
+    text-transform: uppercase;
+    .bold {
+      font-weight: 700;
+      font-size: 95px;
+      line-height: 105px;
+    }
+  }
+  p {
+    font-size: 23px;
+    span {
+      font-weight: 700;
+    }
+  }
+
+  .display-area {
+    margin-top: 70px;
+    position: relative;
+    .arrow-top {
+      position: absolute;
+      right: 50%;
+      top: -25px;
+      width: 90px;
+    }
+    .arrow-bottom {
+      position: absolute;
+      right: 10px;
+      bottom: 35%;
+      width: 80px;
+    }
+    .logo-badge {
+      max-width: 315px;
+      position: absolute;
+      bottom: -80px;
+      right: 0;
+      transform: translateX(53%);
+    }
+  }
+}
+.app-link-widget {
+  display: flex;
+  gap: 20px;
+  img {
+    height: 75px;
+  }
+}
+
+.brief-area {
+  padding-top: 50px;
+  text-align: center;
+  h3 {
+    color: #1a1818;
+    font-weight: 700;
+  }
+  .brand-clr {
+    color: $brand_color;
+  }
+}
+
+.proccess-area {
+  .icon-box {
+    height: 135px;
+    width: 135px;
+    border-radius: 50%;
+    background-color: #fbc31c;
+    text-align: center;
+    padding: 35px;
+    margin: auto;
+    img {
+      max-width: 100%;
+    }
+  }
+  .single-proccess {
+    text-align: center;
+    h2 {
+      font-weight: 700;
+      margin-top: 12px;
+      margin-bottom: 4px;
+    }
+    p {
+      font-size: 18px;
+    }
+  }
+  .proccess-row {
+    > div {
+      position: relative;
+      &:nth-child(odd) {
+        &::after {
+          content: "";
+          background-image: url(../img/odd-arrow.png);
+        }
+      }
+      &::after {
+        content: "";
+        background-image: url(../img/even-arrow.png);
+        width: 140px;
+        height: 30px;
+        background-position: center;
+        background-size: contain;
+        background-repeat: no-repeat;
+        display: block;
+        position: absolute;
+        right: -70px;
+        top: 50px;
+      }
+      &:last-child {
+        &::after {
+          display: none;
+        }
+      }
+    }
+  }
+}
+
+footer {
+  padding-bottom: 50px;
+  h5 {
+    font-size: 22px;
+    font-weight: 400;
+    span {
+      color: $brand_color;
+      font-weight: 700;
+    }
+  }
+}

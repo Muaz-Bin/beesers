@@ -1,0 +1,201 @@
+@media (max-width: 1550px) {
+  .banner-area .site-logo {
+    max-width: 165px;
+  }
+  .banner-area {
+    margin-top: 110px;
+  }
+  .banner-area .search-bar {
+    max-width: 460px;
+  }
+  .banner-area .search-bar input,
+  .banner-area .search-bar input::placeholder {
+    font-size: 18px;
+  }
+  .banner-area .search-bar i {
+    font-size: 24px;
+  }
+  .banner-area .container-fluid {
+    --bs-gutter-x: 50px;
+  }
+  .banner-area .display-area .logo-badge {
+    max-width: 258px;
+    transform: translateX(33%);
+  }
+  .banner-area .inner-container {
+    padding-left: 70px;
+  }
+  .banner-area h1 {
+    font-size: 50px;
+    line-height: 65px;
+  }
+  .banner-area h1 .bold {
+    font-size: 82px;
+    line-height: 120px;
+  }
+  .banner-area p {
+    font-size: 22px;
+  }
+  .banner-area .display-area .arrow-top {
+    top: 0;
+    width: 80px;
+  }
+}
+
+@media (max-width: 1199px) {
+  .banner-area h1 {
+    font-size: 44px;
+    line-height: 58px;
+  }
+  .banner-area h1 .bold {
+    font-size: 65px;
+    line-height: 95px;
+  }
+  .proccess-area .icon-box {
+    height: 120px;
+    width: 120px;
+  }
+  .proccess-area .proccess-row > div::after {
+    width: 105px;
+    right: -58px;
+  }
+  .proccess-area .single-proccess h2 {
+    font-size: 25px;
+  }
+  .banner-area .display-area .logo-badge {
+    max-width: 185px;
+  }
+  .banner-area .display-area .arrow-bottom {
+    right: 10px;
+    bottom: 26%;
+    width: 67px;
+  }
+  .banner-area .display-area .arrow-top {
+    top: 0;
+    width: 64px;
+  }
+  .app-link-widget img {
+    height: 65px;
+  }
+}
+
+@media (max-width: 991px) {
+  .banner-area {
+    text-align: center;
+  }
+  .banner-area .search-bar {
+    display: none;
+  }
+
+  .banner-area .inner-container {
+    padding-left: 50px;
+    padding-right: 50px;
+    background-size: cover;
+  }
+  .banner-area .site-logo {
+    max-width: 165px;
+    margin: auto;
+  }
+  .banner-area h1 {
+    font-size: 42px;
+    line-height: 58px;
+  }
+  .banner-area h1 .bold {
+    font-size: 60px;
+    line-height: 79px;
+  }
+  .banner-area .theme-btn {
+    border-radius: 35px;
+  }
+  .banner-area .display-area {
+    width: 80%;
+    margin: auto;
+    margin-top: 40px;
+  }
+  .banner-area .display-area .arrow-top,
+  .banner-area .display-area .arrow-bottom {
+    display: none;
+  }
+  .banner-area .display-area .logo-badge {
+    max-width: 300px;
+    right: 10%;
+    bottom: 10px;
+  }
+}
+
+@media (max-width: 767px) {
+  .proccess-area .proccess-row > div::after {
+    display: none;
+  }
+  footer h5 {
+    font-size: 20px;
+    font-weight: 400;
+  }
+  .banner-area .container-fluid {
+    --bs-gutter-x: 0;
+  }
+}
+
+@media (max-width: 565px) {
+  .banner-area h1 {
+    font-size: 30px;
+    line-height: 38px;
+  }
+  .banner-area h1 .bold {
+    font-size: 45px;
+    line-height: 45px;
+  }
+  .banner-area .display-area .logo-badge {
+    max-width: 156px;
+  }
+  .banner-area .display-area {
+    width: 100%;
+  }
+  .banner-area p {
+    font-size: 18px;
+  }
+  .proccess-area .single-proccess h2 {
+    font-size: 21px;
+  }
+  .proccess-area .single-proccess p {
+    font-size: 16px;
+  }
+  .theme-btn {
+    font-size: 20px;
+  }
+  footer h5 {
+    font-size: 18px;
+  }
+  .app-link-widget img {
+    height: 50px;
+  }
+  .proccess-area .icon-box {
+    height: 105px;
+    width: 105px;
+    padding: 25px;
+  }
+  .banner-area .inner-container {
+    background-image: url(../img/mobile-bg.png);
+    background-position: top;
+    background-size: cover;
+  }
+  .banner-area .inner-container {
+    padding-left: 30px;
+    padding-right: 30px;
+  }
+  .app-link-widget {
+    padding-bottom: 40px;
+  }
+}
+@media (max-width: 430px) {
+  .banner-area h1 {
+    font-size: 24px;
+  }
+  .banner-area h1 .bold {
+    font-size: 35px;
+  }
+  .banner-area .site-logo {
+    max-width: 135px;
+    margin: auto;
+  }
+}
